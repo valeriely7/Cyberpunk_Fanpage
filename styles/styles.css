@@ -1,0 +1,95 @@
+
+/* Nav Bar */
+.navbar ul{
+        list-style: none;
+        background-color: yellow;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+ }
+
+.navbar a{
+        text-decoration: none;
+        color: black;
+        padding: 20px 40px;
+        display: block;
+        text-align: center;
+}
+
+.navbar a:hover{
+        background-color: fuchsia;
+        color: white;
+    }
+
+.navbar li{
+    display: inline-block;
+}
+
+
+
+
+
+/* Hero */
+.hero-container {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.background-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* About */
+/* ------------CONTENT------------- */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .about {
+    background-color: #bfe7fb;
+    img {
+      width: 25vw;
+      height: auto;
+      padding: 4em;
+    }
+    .contents h2, p{
+      text-align: center;
+      max-width: 400px;
+    }
+  } 
+  
+    .center-wrapper{
+      display: flex;
+      justify-content: center;
+      padding: 2em;
+    }
+  
+  section {
+    margin: 1em;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
