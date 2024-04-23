@@ -429,6 +429,11 @@ p{
       height: 200px;
       max-width: 100%;
       }
+
+    .navbar li{
+      display: flex;
+      flex-direction: column;
+    }
   }
 
     
