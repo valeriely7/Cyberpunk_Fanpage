@@ -202,7 +202,7 @@ p{
   }
 
   .accordion-item {
-    background-color: steelblue;
+    background-color: yellow;
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding-left: 1em;
@@ -219,7 +219,7 @@ p{
     position: relative;
     cursor: pointer;
     padding: 7px;
-    color: white;
+    color: black;
 
   }
 
@@ -248,7 +248,7 @@ p{
   line-height: 1.5rem;
   border-top: 2px solid;
   border-image: linear-gradient(to right, fuchsia, yellow) 1;
-  color: white;
+  color: black;
 }
 
 /* ------Video -----*/
