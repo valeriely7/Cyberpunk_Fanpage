@@ -68,7 +68,6 @@ p{
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: white;
     padding: 10px;
     z-index: 2;
@@ -199,15 +198,13 @@ p{
 
   /* Accordion */
   .accordion{
-    width: 90%;
-    max-width: 1000px;
+    width: 70%;
     margin: 2rem auto;
 
   }
 
   .accordion-item {
     background-color: steelblue;
-    color: black;
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding-left: 1em;
