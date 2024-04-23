@@ -57,6 +57,29 @@
     width: 100%;
 }
 
+/* Subpage Hero */
+
+.samurai-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/samurai-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    aspect-ratio: 1.7;
+  
+    h1{
+    text-wrap: nowrap;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 27%;
+    font-size: 3vw;
+    }
+  }
+  
+
 
 /* About */
 .about {
