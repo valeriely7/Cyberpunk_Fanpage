@@ -340,16 +340,24 @@ p{
 @media (max-width: 1400px) {
   
     .hero-container{
-      background-size: contain;
+      max-width: 100vw;
+      height: auto;  
     }
-  
   }
+
+  .hero-container h1{
+    font-size: 3rem;
+  }
+
   
   /* Tablets (screens smaller than 768px)  */
   @media (max-width: 1000px) {
     
     .hero-container{
       background-size: contain;
+    }
+    .hero-container h1{
+      font-size: 2rem;
     }
   
     .about img{
@@ -383,6 +391,9 @@ p{
   
     .hero-container .samurai-container .corpo-container{
       height: auto;
+    }
+    .hero-container h1{
+      font-size: 1rem;
     }
   
     .card img{
