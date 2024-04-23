@@ -1,6 +1,12 @@
-    
-//Accordion
 
+//Button
+const send = document.getElementById("btn-alert");
+    let sent = "Johnny Silverhand: Give yourself time. Ideas'll come. Life'll shake you, roll you, maybe embrace you. The music'll find you.";
+    send.addEventListener("click", () => {
+        alert(sent);
+    })    
+
+//Accordion
 const accordionItemHeaders = document.querySelectorAll(".accordion-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
@@ -25,3 +31,10 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 const currentDate = new Date();
 let year = currentDate.getFullYear();
             document.getElementById("year").outerHTML = year;
+
+//Accessbility
+document.getElementById('btn-alert').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' || e.key === ' ') {
+      // trigger your button action
+  }
+});

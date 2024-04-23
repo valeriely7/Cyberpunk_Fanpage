@@ -89,7 +89,7 @@ p{
 }
 .samurai-container h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
     background-color: white;
     padding: 20px;
     margin: 15px;
@@ -111,7 +111,7 @@ p{
 
 .corpo-container h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     background-color: white;
     padding: 20px;
     margin: 15px;
@@ -131,10 +131,11 @@ p{
   
   .about {
     background-color: black;
+
     img {
       width: 35vw;
       height: auto;
-      padding: 6em;
+      padding: 2em;
     }
     .contents h2, p{
         text-align: center;
@@ -274,7 +275,7 @@ p{
     img {
       width: 35vw;
       height: auto;
-      padding: 6em;
+      padding: 2em;
     }
     .contents h2, p{
         text-align: center;
@@ -303,7 +304,7 @@ p{
         img {
           width: 35vw;
           height: auto;
-          padding: 6em;
+          padding: 2em;
         }
         .contents h2, p{
             text-align: center;
@@ -356,8 +357,17 @@ p{
     .hero-container{
       background-size: contain;
     }
+
     .hero-container h1{
       font-size: 2rem;
+    }
+
+    .samurai-container h1{
+      font-size: 3rem;
+    }
+
+    .corpo-container h1{
+      font-size: 3rem;
     }
   
     .about img{
@@ -392,7 +402,14 @@ p{
     .hero-container .samurai-container .corpo-container{
       height: auto;
     }
-    .hero-container h1{
+    .hero-container h1 {
+      font-size: 1rem;
+    }
+    .samurai-container h1{
+      font-size: 2rem;
+    }
+
+    .corpo-container h1{
       font-size: 1rem;
     }
   
