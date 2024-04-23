@@ -59,7 +59,6 @@
 
 
 /* About */
-/* ------------CONTENT------------- */
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -69,15 +68,16 @@
   }
   
   .about {
-    background-color: #bfe7fb;
+    background-color: black;
     img {
-      width: 25vw;
+      width: 35vw;
       height: auto;
-      padding: 4em;
+      padding: 6em;
     }
     .contents h2, p{
-      text-align: center;
-      max-width: 400px;
+        text-align: center;
+        max-width: 400px;
+        color: white;
     }
   } 
   
@@ -88,8 +88,105 @@
     }
   
   section {
-    margin: 1em;
+    margin: 1rem;
     background-color: white;
     border-radius: 8px;
   }
+
+   /* ----Cards---- */
+
+   .card {
+    border: 2px solid aqua;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+
+    p{
+      max-width: 100%;
+    }
+  }
+
+  .card img{
+    max-width: 40vw;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .card h3{
+    font-size: 1.2em;
+  }
+  
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+  /* Accordion */
+  .accordion{
+    width: 70vw;
+    margin: 2rem auto;
+
+  }
+
+  .accordion-item {
+    background-color: steelblue;
+    color: black;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding-left: 1em;
+  }
+
+  .accordion-header {
+    display: flex;
+    padding: 0.5rem 3rem, 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    color: white;
+
+  }
+
+  /*rotating icon*/
+  .accordion .accordion-header.active svg{
+      transform: rotate(0.5turn);
+      transition: 0.4s; 
+    }
+
+  /* Icon Sizing */
+  .accordion svg {
+    display: inline;
+    width: 1em;
+    position: absolute;
+    right: 20px;
+  }
+
+  .accordion-body { 
+   max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+  }
+
+.body-content { 
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 2px solid;
+  border-image: linear-gradient(to right, red, yellow) 1;
+  color: white;
+}
   
