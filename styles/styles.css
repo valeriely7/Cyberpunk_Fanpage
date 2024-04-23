@@ -134,7 +134,8 @@
 
   /* Accordion */
   .accordion{
-    width: 70vw;
+    width: 90%;
+    max-width: 1000px;
     margin: 2rem auto;
 
   }
@@ -186,7 +187,95 @@
   padding: 1rem;
   line-height: 1.5rem;
   border-top: 2px solid;
-  border-image: linear-gradient(to right, red, yellow) 1;
+  border-image: linear-gradient(to right, fuchsia, yellow) 1;
   color: white;
 }
+
+/* ------Video -----*/
+.video-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+  }
+  
+/* --------FOOOTER------- */
+.footer-container {
+    width: 100%;
+    height: auto px;
+    position: relative;
+    margin-top: 3rem;
+  }
+  
+  /* Footer Background*/
+  .footer{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+
+  /* Desktop (1400px) */
+@media (max-width: 1400px) {
+  
+    .hero-container{
+      background-size: contain;
+    }
+  
+  }
+  
+  /* Tablets (screens smaller than 768px)  */
+  @media (max-width: 1000px) {
+    
+    .hero-container{
+      background-size: contain;
+    }
+  
+    .about img{
+      width: 300px;
+      height: auto;
+    }
+  
+    .card img{
+      max-width: 1400px;
+      width: 80vw;
+    }
+  
+    .card h3, p{
+      max-width: 80vw;
+    }
+  
+    }
+  
+/* Mobile phones (screens smaller than 480px) */
+@media (max-width: 480px) {
+  
+    .hero-container{
+      height: auto;
+    }
+  
+  
+    .about img{
+      width: 250px;
+      height: auto;
+    }
+  
+    .card img{
+      width: 80vw;
+    }
+  
+    section{
+      margin: 5px;
+      padding: 5px;
+      }
+  
+    iframe {
+      height: 200px;
+      max-width: 100%;
+      }
+  }
+    
   
