@@ -207,6 +207,7 @@ p{
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding-left: 1em;
+    padding-right:30px;
   }
 
   .accordion-header {
@@ -219,9 +220,7 @@ p{
     align-items: center;
     position: relative;
     cursor: pointer;
-    padding: 7px;
-    color: black;
-
+    padding: 7px
   }
 
   /*rotating icon*/
@@ -236,6 +235,7 @@ p{
     width: 1em;
     position: absolute;
     right: 20px;
+    margin: 1em;
   }
 
   .accordion-body { 
@@ -322,7 +322,7 @@ p{
 /* --------FOOOTER------- */
 .footer-container {
     width: 100%;
-    height: auto px;
+    height: auto;
     position: relative;
     margin-top: 3rem;
   }
