@@ -1,4 +1,7 @@
 
+body{
+    margin: 0;
+}
 /* Nav Bar */
 .navbar ul{
         list-style: none;
@@ -27,8 +30,6 @@
 
 
 
-
-
 /* Hero */
 .hero-container {
     position:relative;
@@ -37,8 +38,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    video{
+        width: 100vw;
+    }
 }
 
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 .hero-container h1{
     text-align: center;
     font-size: 4rem;
@@ -48,13 +59,6 @@
     margin: 15px;
     z-index: 1;
     opacity: 0.7;
-}
-
-.background-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
 /* Subpage Hero */
@@ -135,7 +139,6 @@
     }
   
   section {
-    margin: 1rem;
     background-color: white;
     border-radius: 8px;
   }
@@ -246,6 +249,38 @@
     margin: auto;
     padding: 10px;
   }
+
+  /* Corpo Subpage */
+.corpo-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .corpo-content {
+    background-color: black;
+    img {
+      width: 35vw;
+      height: auto;
+      padding: 6em;
+    }
+    .contents h2, p{
+        text-align: center;
+        max-width: 400px;
+        color: white;
+    }
+  } 
+  
+    .center-wrapper{
+      display: flex;
+      justify-content: center;
+      padding: 2em;
+    }
+
+
+
   
 /* --------FOOOTER------- */
 .footer-container {
@@ -300,7 +335,7 @@
 /* Mobile phones (screens smaller than 480px) */
 @media (max-width: 480px) {
   
-    .hero-container{
+    .hero-container .samurai-container .corpo-container{
       height: auto;
     }
   
