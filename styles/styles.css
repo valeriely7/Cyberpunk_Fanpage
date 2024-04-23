@@ -233,7 +233,7 @@ p{
   .accordion svg {
     display: inline;
     width: 1em;
-    position: absolute;
+    position:absolute;
     right: 20px;
     margin: 1em;
   }
@@ -392,6 +392,9 @@ p{
   
     .card h3, p{
       max-width: 80vw;
+    }
+    .accordion svg {
+      right: -1.5em;
     }
   
     }
