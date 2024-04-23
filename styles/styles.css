@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     margin: 0;
+    font-family: "Rubik", "Calibri", "Arial", sans-serif;
+      
+}
+
+nav, h1, h2{
+    text-align: center;
+    font-family: "Jersey 25", "Rubik", "Calibri", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    text-align: center;
+    font-family: "Rubik", "Calibri", "Arial", sans-serif;
+    font-weight: 400;
 }
 /* Nav Bar */
 .navbar ul{
