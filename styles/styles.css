@@ -90,7 +90,6 @@ p{
 .samurai-container h1{
     text-align: center;
     font-size: 4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: white;
     padding: 20px;
     margin: 15px;
@@ -113,7 +112,6 @@ p{
 .corpo-container h1{
     text-align: center;
     font-size: 4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: white;
     padding: 20px;
     margin: 15px;
@@ -301,7 +299,7 @@ p{
       }
       
       .samurai-content {
-        background-color: steelblue;
+        background-color: black;
         img {
           width: 35vw;
           height: auto;
