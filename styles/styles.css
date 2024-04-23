@@ -16,6 +16,7 @@ p{
     text-align: center;
     font-family: "Rubik", "Calibri", "Arial", sans-serif;
     font-weight: 400;
+    margin: 1em;
 }
 /* Nav Bar */
 .navbar ul{
@@ -150,7 +151,8 @@ p{
   
   section {
     background-color: white;
-    border-radius: 8px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
    /* ----Cards---- */
@@ -289,8 +291,34 @@ p{
       padding: 2em;
     }
 
-
-
+    /*Samurai Subpage*/
+    .samurai-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+      
+      .samurai-content {
+        background-color: steelblue;
+        img {
+          width: 35vw;
+          height: auto;
+          padding: 6em;
+        }
+        .contents h2, p{
+            text-align: center;
+            max-width: 400px;
+            color: white;
+        }
+      } 
+      
+        .center-wrapper{
+          display: flex;
+          justify-content: center;
+          padding: 2em;
+        }
   
 /* --------FOOOTER------- */
 .footer-container {
@@ -327,8 +355,18 @@ p{
     }
   
     .about img{
-      width: 300px;
+      width: 80vw;
       height: auto;
+    }
+
+    .samurai-content img{
+        width: 80vw;
+        height: auto;
+    }
+
+    .corpo-content img{
+        width: 80vw;
+        height: auto;
     }
   
     .card img{
@@ -346,12 +384,6 @@ p{
 @media (max-width: 480px) {
   
     .hero-container .samurai-container .corpo-container{
-      height: auto;
-    }
-  
-  
-    .about img{
-      width: 250px;
       height: auto;
     }
   
